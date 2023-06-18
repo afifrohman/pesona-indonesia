@@ -3,15 +3,15 @@
     <!-- ======= Breadcrumbs Section ======= -->
     <section class="breadcrumbs">
         <div class="container">
-
             <div class="d-flex justify-content-between align-items-center">
-                <h2>Portfolio Details</h2>
+                <h2 class="font-weight-bold"><?= $posting['title'] ?></h2>
                 <ol>
                 </ol>
             </div>
-
         </div>
-    </section><!-- Breadcrumbs Section -->
+    </section>
+
+    <!-- Breadcrumbs Section -->
 
     <!-- ======= Portfolio Details Section ======= -->
     <section class="portfolio-details">
@@ -42,18 +42,14 @@
                     <ul>
                         <li><strong>Harga Tiket</strong> : <?= $posting['ticket_price'] ?></li>
                         <li><strong>Alamat</strong> : <?= $posting['address'] ?></li>
-                        <li><strong>Peta</strong> :<a href="<?= $posting['maps'] ?>" target="_blank">View Map</a></li>
-
+                        <li><strong>Maps</strong> :<a href="<?= $posting['maps'] ?>" target="_blank">View Maps</a></li>
                     </ul>
                 </div>
-
             </div>
 
             <div class="portfolio-description">
-                <h2><?= $posting['title'] ?></h2>
-                <p>
-                    <?= $posting['description'] ?>.
-                </p>
+                <h3>Deskripsi</h3>
+                <p><?= $posting['description'] ?>.</p>
             </div>
         </div>
     </section><!-- End Portfolio Details Section -->

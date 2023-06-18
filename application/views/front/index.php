@@ -103,7 +103,7 @@
 
                 <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="member">
-                    <div class="pic"><img src="<?= base_url('assets/img/profile/team/fadhilah.jpg'); ?>"
+                    <div class="pic"><img src="<?= base_url('assets/img/profile/team/anggota-3.jpeg'); ?>"
                         class="img-fluid" alt="" style="width:270px; height:270px !important;"></div>
                     <div class="member-info">
                         <h4>M. Dzaky Dwi Ardiansyah</h4>
@@ -114,11 +114,11 @@
 
                 <div class="col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="member">
-                    <div class="pic"><img src="<?= base_url('assets/img/profile/team/fadhilah.jpg'); ?>"
+                    <div class="pic"><img src="<?= base_url('assets/img/profile/team/anggota-4.jpeg'); ?>"
                         class="img-fluid" alt="" style="width:270px; height:270px !important;"></div>
                     <div class="member-info">
                         <h4>Nadia Putri Ariyanto</h4>
-                        <span>Product Manager</span>
+                        <span>Project Manager</span>
                     </div>
                     </div>
                 </div>

@@ -29,7 +29,7 @@
                     <?= form_error('address', '<small class="text-danger">', '</small>'); ?>
                 </div>
                 <div class="form-group">
-                    <label for="maps">Peta</label>
+                    <label for="maps">URL Maps</label>
                     <input type="text" class="form-control" id="maps" name="maps"
                         value="<?= $postings['maps']; ?>">
                     <?= form_error('maps', '<small class="text-danger">', '</small>'); ?>

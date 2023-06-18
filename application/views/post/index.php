@@ -106,25 +106,25 @@
                 <div class="modal-body">
                     <div class="form-group">
                         <input type="text" class="form-control form-control-user" id="title" name="title"
-                            placeholder="Title">
+                            placeholder="Nama Lokawisata">
                         <?= form_error('title', '<small class="text-danger pl-3">', '</small>') ?>
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control form-control-user" id="ticket_price" name="ticket_price"
-                            placeholder="Sub Title">
+                            placeholder="Harga Tiket">
                         <?= form_error('ticket_price', '<small class="text-danger pl-3">', '</small>') ?>
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control form-control-user" id="address" name="address"
-                            placeholder="Address">
+                            placeholder="Alamat">
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control form-control-user" id="maps" name="maps"
-                            placeholder="Maps">
+                            placeholder="URL Maps">
                     </div>
                     <div class=" form-group">
                         <textarea type="text" class="form-control form-control-user" id="description" name="description"
-                            placeholder="Description"></textarea>
+                            placeholder="Dekripsi"></textarea>
                         <?= form_error('description', '<small class="text-danger pl-3">', '</small>') ?>
                     </div>
                     <div class="form-group row">

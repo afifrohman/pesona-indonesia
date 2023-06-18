@@ -1067,9 +1067,9 @@ section {
   padding-top: 50px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.portfolio-details .portfolio-description h3 {
   width: 50%;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -1079,7 +1079,7 @@ section {
 }
 
 @media (max-width: 768px) {
-  .portfolio-details .portfolio-description h2 {
+  .portfolio-details .portfolio-description h3 {
     width: 100%;
   }
   .portfolio-details .portfolio-info {
