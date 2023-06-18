@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #428bca;
+  background: #6d9e95;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .back-to-top:hover {
   color: #fff;
-  background: #629fd3;
+  background: #6d9e95;
   transition: background 0.2s ease-in-out;
 }
 
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   transition: all 0.5s;
   padding: 10px 0;
-  background: #fff;
+  background: #6d9e95;
   z-index: 997;
 }
 
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #1c5c93;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #5c768d;
+  color: #ffffff;
   padding: 12px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #428bca;
+  color: #2a353f;
   text-decoration: none;
 }
 
@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav-toggle i {
-  color: #5c768d;
+  color: #ffffff;
 }
 
 .mobile-nav-overly {
@@ -514,7 +514,7 @@ section {
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5c768d;
+  color: #6d9e95;
 }
 
 .section-title p {
@@ -1120,7 +1120,7 @@ section {
   bottom: -48px;
   left: 20px;
   right: 20px;
-  background: linear-gradient(360deg, #5c768d 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+  background: linear-gradient(360deg, #6d9e95 0%, rgba(101, 155, 151, 0.9) 35%, rgba(155, 211, 205, 0.8) 100%);
   padding: 15px 0;
   border-radius: 4px;
 }
@@ -1209,10 +1209,10 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #428bca;
+  color: #6d9e95;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #9eccf4;
+  border: 2px dotted #6d9e95;
 }
 
 .contact .info-box h3 {
@@ -1333,7 +1333,7 @@ section {
 }
 
 #footer {
-  background: #587187;
+  background: #6d9e95;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
