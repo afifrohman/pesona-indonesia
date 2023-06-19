@@ -1,0 +1,9 @@
+Berikut adalah langkah-langkah untuk masuk ke bagian login admin di https://pesonaindonesia28.000webhostapp.com/auth menggunakan email "admin@gmail.com" dan password "admin123":
+
+Buka browser web Anda dan ketikkan alamat URL berikut: https://pesonaindonesia28.000webhostapp.com/auth. Tekan Enter untuk membuka halaman login admin Pesona Indonesia.
+
+Di halaman login admin, temukan kolom yang diminta untuk memasukkan email atau username. Ketikkan "admin@gmail.com" di kolom tersebut.
+
+Selanjutnya, cari kolom yang diminta untuk memasukkan password. Masukkan "admin123" sebagai password.
+
+Setelah memasukkan email dan password yang benar, klik tombol "Login" atau tekan Enter. Jika informasi login yang dimasukkan valid, Anda akan diarahkan ke halaman admin Pesona Indonesia.

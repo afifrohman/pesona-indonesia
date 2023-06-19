@@ -7,6 +7,7 @@
     <title>Pesona Indonesia</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
+    <meta name="dicoding:email" content="dzaky.ardiansyah03@gmail.com">
 
     <!-- Favicons -->
     <link href="<?= base_url('assets/') ?>img/icons/favicon.png" rel="icon">

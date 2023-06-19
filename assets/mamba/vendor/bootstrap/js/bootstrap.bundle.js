@@ -1615,7 +1615,7 @@
   * but called in the minimum time possible.
   *
   * @method
-  * @memberof Popper.Utils
+  * @of Popper.Utils
   * @argument {Function} fn
   * @returns {Function}
   */
