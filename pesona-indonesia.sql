@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 17, 2023 at 04:35 PM
+-- Generation Time: Jun 19, 2023 at 06:00 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -40,7 +40,7 @@ CREATE TABLE `aboutus` (
 --
 
 INSERT INTO `aboutus` (`id`, `name`, `description`, `image`, `date_created`) VALUES
-(1, 'Pesona Indonesia', 'Website Pesona Indonesia menyediakan beragam informasi tentang tempat-tempat wisata yang menakjubkan, mulai dari pantai-pantai eksotis, gunung-gunung indah, hingga cagar budaya yang kaya sejarah. Pengguna dapat menjelajahi halaman destinasi wisata yang informatif, yang dilengkapi dengan deskripsi singkat, foto-foto menakjubkan, dan peta lokasi. Informasi praktis seperti cara mencapai lokasi, fasilitas yang tersedia, dan tips perjalanan juga disediakan untuk membantu pengunjung merencanakan perjalanan mereka dengan lebih baik.', 'demo-image.png', 1687005192);
+(1, 'Pesona Indonesia', 'Website Pesona Indonesia menyediakan beragam informasi tentang tempat-tempat wisata yang menakjubkan, mulai dari pantai-pantai eksotis, gunung-gunung indah, hingga cagar budaya yang kaya sejarah. Pengguna dapat menjelajahi halaman destinasi wisata yang informatif, yang dilengkapi dengan deskripsi singkat, foto-foto menakjubkan, dan peta lokasi. Informasi praktis seperti cara mencapai lokasi, fasilitas yang tersedia, dan tips perjalanan juga disediakan untuk membantu pengunjung merencanakan perjalanan mereka dengan lebih baik.', 'wisata.png', 1687155947);
 
 -- --------------------------------------------------------
 
@@ -53,9 +53,9 @@ CREATE TABLE `jumbotron` (
   `title1` varchar(128) NOT NULL,
   `title2` varchar(128) NOT NULL,
   `title3` varchar(128) NOT NULL,
-  `description1` varchar(256) NOT NULL,
-  `description2` varchar(256) NOT NULL,
-  `description3` varchar(256) NOT NULL,
+  `description1` varchar(256) DEFAULT NULL,
+  `description2` varchar(256) DEFAULT NULL,
+  `description3` varchar(256) DEFAULT NULL,
   `image1` varchar(256) NOT NULL,
   `image2` varchar(256) NOT NULL,
   `image3` varchar(256) NOT NULL
@@ -66,7 +66,7 @@ CREATE TABLE `jumbotron` (
 --
 
 INSERT INTO `jumbotron` (`id`, `title1`, `title2`, `title3`, `description1`, `description2`, `description3`, `image1`, `image2`, `image3`) VALUES
-(1, 'Image 1asdsadadadadadsadsada', 'Image 2', 'Image 3', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ', 'Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ', 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.', 'ii3d0x4j9ge01.jpg', 'landscape-austria-water-nature-mountains-hd-wallpaper-preview.jpg', 'AGhdpJ.jpg');
+(1, 'SELAMAT DATANG', 'Mau Mencari Lokawisata Yang Manarik?', 'Buruan Scroll ke Bawah', '', '', '', 'jumbo1.jpeg', 'jumbo2.jpeg', 'jumbo3.jpeg');
 
 -- --------------------------------------------------------
 
@@ -92,8 +92,9 @@ CREATE TABLE `posting` (
 --
 
 INSERT INTO `posting` (`id`, `title`, `ticket_price`, `description`, `image1`, `image2`, `image3`, `address`, `date_created`, `maps`) VALUES
-(10, 'Baturaden', '50000', 'Lokawisata Baturraden termasuk wisata pegunungan mengingat lokasinya yang berada di kaki Gunung Slamet, dengan ketinggian 640 meter di atas permukaan laut. Baturraden sudah dikenal sebagai lokawisata sejak tahun 1928. Hal ini imbas dari daerah sekitarnya yang menjadi tempat hunian para pejabat Belanda.\r\n\r\nSebagaimana layaknya suatu tempat di Jawa, di Baturraden juga dikenal legenda yang konon menjadi cikal bakal berdirinya lokasi ini. Salah satu versi legenda itu berkaitan dengan Kadipaten Kutaliman yang konon berlokasi di 10 kilometer sebelah barat kaki Gunung Slamet. Kadipaten ini dipimpin oleh seorang Adipati. Dia memiliki seorang istri, seorang putri, dan seorang abdi dalem yang bernama Batur Gamel. Batur Gamel adalah seorang pemuda tampan yang tekun bekerja, Dia bertugas membantu urusan rumah tangga Adipati, dan mengurus kuda. Suatu hari, saat Batur Gamel sedang bekerja, dia mendengar suara jeritan dari balik hutan. Dia pun segera menuju ke sumber suara untuk menolong sosok yang berteriak itu.', 'raden5.jpg', 'infobacktravel_blogspot_com-panduan-wisata-baturaden.jpg', '612878ce84e64.jpg', 'Jl. Raya Baturaden No.174, Dusun I Karangmangu, Karangmangu, Kec. Baturaden, Kabupaten Banyumas, Jawa Tengah 53151', 1601109604, 'https://goo.gl/maps/WMrCbqWozzCYFAvz7'),
-(11, 'pjinjkmunjn kunkjnjkn', '0', 'dafafafafasfaasf', 'af8d63a477078732b79ff9d9fc60873f.jpg', NULL, '0a21e44df44210ac9a80625fc737bec6.jpg', 'fdfdfdfdfdfdfdf', 1601109649, NULL);
+(13, 'Candi Borobudur', 'Rp 200000', 'Candi Borobudur terletak di Kabupaten Magelang, Jawa Tengah dengan corak Buddha. Diperkirakan Candi Borobudur didirikan pada masa pemerintahan Dinasti Syailendra antara 750-842 M. Tujuan pembangunan Candi Borobudur adalah untuk memuliakan ajaran Budha Mahayana. Belum ditemukan secara pasti siapa pendiri dari Candi Borobudur. Menurut sejarawan J.G. de Casparis menyebutkan bahwa pendiri Candi Borobudur adalah Raja Samaratungga. Adapun Raja Samaratungga memimpin Mataram Kuno pada tahun 782 – 812 M pada masa pemerintahan Dinasti Syailendra.', 'borobudur1.jpeg', 'borobudur2.jpeg', 'borobudur3.jpeg', 'Kabupaten Magelang', 1687076844, 'https://goo.gl/maps/WMrCbqWozzCYFAvz7'),
+(14, 'Karimunjawa', 'Rp 100000', 'Karimunjawa dikenal sebagai “Indonesia Mini” karena penduduknya sangat beragam, terdiri atas berbagai suku seperti suku Jawa, Bugis, Madura, Buton, Bajo, dan Mandar (Anis, 2015). Oleh karena itu, tidak salah jika Karimunjawa dikatakan sebagai pulau kecil yang memiliki multikulturalisme yang kental. Sebagian besar penduduk di Karimunjawa adalah pendatang yang kemudian mencari penghidupan dan menetap di pulau tersebut, sehingga Pulau Karimunjawa tidak memiliki suku asli ', '405b85455604342c73bf1cd837b38587.jpeg', '462d694387f1ec32fd204e166825ae3a.jpeg', '9b9c2535e6772a4bc8c108330962a681.jpeg', 'Kabupaten Jepara', 1687154078, 'https://goo.gl/maps/kEUdFbwcLJ916Evd9'),
+(15, 'Bandaneira', 'Rp 25000', 'Pulau Banda Neira adalah satu di antara beberapa pulau yang ada di Kepulauan Banda, Kabupaten Maluku Tengah, Maluku. Di Kepulauan Banda, ada 3 pulau besar yakni Banda Besar, Neira, dan Pulau Gunung Api. Serta 7 pulau kecil yakni Pulau Ay, Rhun, Hatta, Karaka, Sjahril, Nailaka, dan Pulau Batu Kapal. Pulau Banda Neira pada masa VOC dahulu paling terkenal karena menjadi pusat dagang rempah-rempah berkualitas tinggi seperti pala dan fuli (bunga pala).', '09ea43d13dc5650d8559b83cf356c5d6.jpeg', '426d8ccd5314de4dce97d74240e80f19.jpeg', '05a478499edab7385d51506d26a3859f.jpeg', 'Kabupaten Maluku', 1687154213, 'https://goo.gl/maps/pwwiBXFkBDFgQrj98');
 
 -- --------------------------------------------------------
 
@@ -117,11 +118,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `email`, `image`, `password`, `role_id`, `is_active`, `date_created`) VALUES
-(3, 'Alfharizky Fauzi', 'alfharizky110999@gmail.com', 'default.jpg', '$2y$10$/4fmS1Wub7jLwrgV.ERilOdX/exONhNGcYmJbUqdfqvpBUEVKRGKu', 2, 1, 1598289266),
-(4, 'Administrator', 'admin@gmail.com', 'default.jpg', '$2y$10$IehsHmaOHhyqE.P0Oru6Kum6DS4/wY8jdNH8dczmpPS/q..Z1EvZ6', 1, 1, 1598292995),
-(5, 'nugrahanagi', 'nugrahanagi@gmail.com', 'demo-image.jpg', '$2y$10$xyEIlegQOzU2lFriMO0BTOroPAAToo8/phKPFsRPbo4COuRAWpEIO', 2, 1, 1598566786),
-(6, 'coba11111', 'coba@gmail.com', 'default.jpg', '$2y$10$bl2l1DzuE7EklI86r9LNnOldx7f5eHK4xyW3FvOR0zDAQRaDdIePO', 5, 0, 1600591990),
-(7, 'coba1111dasadad', 'adadad@student.gunadarma.ac.id', 'default.jpg', '$2y$10$ZjkRIAQ4er8CrGQucWhwn.g6RyghNlMSyPPsBWcqpsbksQ8iVqfMa', 5, 1, 1601103918);
+(4, 'Administrator', 'admin@gmail.com', 'default.png', '$2y$10$IehsHmaOHhyqE.P0Oru6Kum6DS4/wY8jdNH8dczmpPS/q..Z1EvZ6', 1, 1, 1686675600),
+(8, 'Afif Rohman', 'afif@gmail.com', 'anggota-1.jpg', '$2y$10$qOI8ch0snI964j6n2esf8uRS11N3areiNfJAE0EPGkpoXhBOZqMcW', 1, 1, 1687155486);
 
 -- --------------------------------------------------------
 
@@ -142,7 +140,6 @@ CREATE TABLE `user_access_menu` (
 INSERT INTO `user_access_menu` (`id`, `role_id`, `menu_id`) VALUES
 (1, 1, 1),
 (2, 1, 2),
-(3, 2, 2),
 (4, 1, 3),
 (7, 1, 5);
 
@@ -165,8 +162,7 @@ INSERT INTO `user_menu` (`id`, `menu`) VALUES
 (1, 'Administrator'),
 (2, 'User'),
 (3, 'Menu'),
-(5, 'Posting'),
-(6, 'coba');
+(5, 'Posting');
 
 -- --------------------------------------------------------
 
@@ -184,9 +180,7 @@ CREATE TABLE `user_role` (
 --
 
 INSERT INTO `user_role` (`id`, `role`) VALUES
-(1, 'Administrator'),
-(2, 'Member'),
-(5, 'coba111111');
+(1, 'Administrator');
 
 -- --------------------------------------------------------
 
@@ -311,19 +305,19 @@ ALTER TABLE `jumbotron`
 -- AUTO_INCREMENT for table `posting`
 --
 ALTER TABLE `posting`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `user_access_menu`
 --
 ALTER TABLE `user_access_menu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `user_menu`

@@ -1,25 +1,24 @@
 <main id="main">
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-        <div class="container">
-            <?php foreach ($about as $ab) : ?>
-            <div class="row no-gutters">
-                <div class="col-lg-6 video-box">
-                    <img src="<?= base_url('assets/img/posting/about/') . $ab['image']; ?>" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
-                    <div class="section-title">
-                        <h2>About Us</h2>
-                        <p><?= $ab['description'] ?></p>
-                    </div>
-                    <?php endforeach; ?>
-
+ <!-- ======= About Us Section ======= -->
+<section id="about" class="about">
+    <div class="container">
+        <?php foreach ($about as $ab) : ?>
+        <div class="row no-gutters">
+            <div class="col-lg-6 video-box">
+                <img src="<?= base_url('assets/img/posting/about/') . $ab['image']; ?>" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
+                <div class="section-title">
+                    <h2>About Us</h2>
+                    <p><?= $ab['description'] ?></p>
                 </div>
             </div>
-
         </div>
-    </section><!-- End About Us Section -->
+        <?php endforeach; ?>
+    </div>
+</section><!-- End About Us Section -->
+
 
 
     <!-- ======= Our Portfolio Section ======= -->
@@ -124,43 +123,37 @@
     </section>
     <!-- End Our Team Section -->
 
-    <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact">
-        <div class="container">
-
-            <div class="section-title">
-                <h2>Contact Us</h2>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
-                    <div class="info-box">
-                        <i class="bx bx-map"></i>
-                        <h3>Alamat</h3>
-                        <p>Jln. Ahmad Yamin, Jakarta, Indonesia</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                    <div class="info-box">
-                        <i class="bx bx-envelope"></i>
-                        <h3>Email Kami</h3>
-                        <p>pesonaindonesia@gmail.com<br>berpetualang@gmail.com</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                    <div class="info-box ">
-                        <i class="bx bx-phone-call"></i>
-                        <h3>Hubungi Kami</h3>
-                        <p>+628525346754<br>+628543456577</p>
-                    </div>
-                </div>
-
-            </div>
-
+   <!-- ======= Contact Us Section ======= -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-title">
+            <h2>Contact Us</h2>
         </div>
-    </section><!-- End Contact Us Section -->
+        <div class="row">
+            <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
+                <div class="info-box">
+                    <i class="bx bx-map"></i>
+                    <h3>Alamat</h3>
+                    <p>Jln. Ahmad Yamin, Jakarta, Indonesia</p>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="info-box">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email Kami</h3>
+                    <p>pesonaindonesia@gmail.com<br>berpetualang@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="info-box">
+                    <i class="bx bx-phone-call"></i>
+                    <h3>Hubungi Kami</h3>
+                    <p>+628525346754<br>+628543456577</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Contact Us Section -->
+
 
 </main><!-- End #main -->
