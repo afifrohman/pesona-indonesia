@@ -1,25 +1,24 @@
 <main id="main">
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-        <div class="container">
-            <?php foreach ($about as $ab) : ?>
-            <div class="row no-gutters">
-                <div class="col-lg-6 video-box">
-                    <img src="<?= base_url('assets/img/posting/about/') . $ab['image']; ?>" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
-                    <div class="section-title">
-                        <h2>About Us</h2>
-                        <p><?= $ab['description'] ?></p>
-                    </div>
-                    <?php endforeach; ?>
-
+ <!-- ======= About Us Section ======= -->
+<section id="about" class="about">
+    <div class="container">
+        <?php foreach ($about as $ab) : ?>
+        <div class="row no-gutters">
+            <div class="col-lg-6 video-box">
+                <img src="<?= base_url('assets/img/posting/about/') . $ab['image']; ?>" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
+                <div class="section-title">
+                    <h2>About Us</h2>
+                    <p><?= $ab['description'] ?></p>
                 </div>
             </div>
-
         </div>
-    </section><!-- End About Us Section -->
+        <?php endforeach; ?>
+    </div>
+</section><!-- End About Us Section -->
+
 
 
     <!-- ======= Our Portfolio Section ======= -->
