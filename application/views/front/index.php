@@ -123,43 +123,37 @@
     </section>
     <!-- End Our Team Section -->
 
-    <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact">
-        <div class="container">
-
-            <div class="section-title">
-                <h2>Contact Us</h2>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
-                    <div class="info-box">
-                        <i class="bx bx-map"></i>
-                        <h3>Alamat</h3>
-                        <p>Jln. Ahmad Yamin, Jakarta, Indonesia</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                    <div class="info-box">
-                        <i class="bx bx-envelope"></i>
-                        <h3>Email Kami</h3>
-                        <p>pesonaindonesia@gmail.com<br>berpetualang@gmail.com</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                    <div class="info-box ">
-                        <i class="bx bx-phone-call"></i>
-                        <h3>Hubungi Kami</h3>
-                        <p>+628525346754<br>+628543456577</p>
-                    </div>
-                </div>
-
-            </div>
-
+   <!-- ======= Contact Us Section ======= -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-title">
+            <h2>Contact Us</h2>
         </div>
-    </section><!-- End Contact Us Section -->
+        <div class="row">
+            <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
+                <div class="info-box">
+                    <i class="bx bx-map"></i>
+                    <h3>Alamat</h3>
+                    <p>Jln. Ahmad Yamin, Jakarta, Indonesia</p>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="info-box">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email Kami</h3>
+                    <p>pesonaindonesia@gmail.com<br>berpetualang@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="info-box">
+                    <i class="bx bx-phone-call"></i>
+                    <h3>Hubungi Kami</h3>
+                    <p>+628525346754<br>+628543456577</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Contact Us Section -->
+
 
 </main><!-- End #main -->
