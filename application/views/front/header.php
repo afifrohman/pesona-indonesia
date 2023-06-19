@@ -7,6 +7,9 @@
     <title>Pesona Indonesia</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
+    <meta name="dicoding:email" content="afifrohman228@gmail.com">
+    <meta name="dicoding:email" content="virlydiranisha1771@gmail.com">
+    <meta name="dicoding:email" content="nadiaaputrii19@gmail.com">
     <meta name="dicoding:email" content="dzaky.ardiansyah03@gmail.com">
 
     <!-- Favicons -->
