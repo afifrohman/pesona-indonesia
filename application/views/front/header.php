@@ -45,10 +45,14 @@
     <!-- ======= Header ======= -->
     <header id="header">
         <div class="container">
-            <div class="logo float-left">
+            <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="logo float-left">
                 <h1 class="text-light"><a href="<?= base_url(); ?>"><span>Pesona Indonesia</span></a></h1>
+                </div>
             </div>
-            <nav class="nav-menu float-right d-none d-lg-block">
+            <div class="col-lg-6">
+                <nav class="nav-menu float-right d-none d-lg-block">
                 <ul>
                     <li><a href="<?= base_url(); ?>">Home</a></li>
                     <li><a href="#about">About Us</a></li>
@@ -56,8 +60,9 @@
                     <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact Us</a></li>
                 </ul>
-            </nav>
-            <!-- .nav-menu -->
-
+                </nav>
+            </div>
+            </div>
         </div>
-    </header><!-- End Header -->
+    </header>
+<!-- End Header -->

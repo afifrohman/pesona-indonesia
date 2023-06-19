@@ -16,42 +16,43 @@
     <!-- ======= Portfolio Details Section ======= -->
     <section class="portfolio-details">
         <div class="container">
-
-            <div class="portfolio-details-container">
-
-                <div class="owl-carousel portfolio-details-carousel">
-                    <img src="<?php if ($posting['image1'] != NULL) {
-                                    echo base_url('assets/img/posting/post/') . $posting['image1'];
+            <div class="row">
+            <div class="col-lg-6">
+                <div class="portfolio-details-carousel">
+                <img src="<?php if ($posting['image1'] != NULL) {
+                                echo base_url('assets/img/posting/post/') . $posting['image1'];
                                 } else {
-                                    echo base_url('assets/img/posting/post/default1.jpg');
-                                } ?>" class="img-fluid" alt="" style=" width:100%; height: 500px !important;">
-                    <img src="<?php if ($posting['image2'] != NULL) {
-                                    echo base_url('assets/img/posting/post/') . $posting['image2'];
+                                echo base_url('assets/img/posting/post/default1.jpg');
+                                } ?>" class="img-fluid" alt="" style="width:100%; height: 500px !important;">
+                <img src="<?php if ($posting['image2'] != NULL) {
+                                echo base_url('assets/img/posting/post/') . $posting['image2'];
                                 } else {
-                                    echo base_url('assets/img/posting/post/default1.jpg');
-                                } ?>" class="img-fluid" alt="" style=" width:100%; height: 500px !important;">
-                    <img src="<?php if ($posting['image3'] != NULL) {
-                                    echo base_url('assets/img/posting/post/') . $posting['image3'];
+                                echo base_url('assets/img/posting/post/default1.jpg');
+                                } ?>" class="img-fluid" alt="" style="width:100%; height: 500px !important;">
+                <img src="<?php if ($posting['image3'] != NULL) {
+                                echo base_url('assets/img/posting/post/') . $posting['image3'];
                                 } else {
-                                    echo base_url('assets/img/posting/post/default1.jpg');
-                                } ?>" class="img-fluid" alt="" style=" width:100%; height: 500px !important;">
-                </div>
-
-                <div class="portfolio-info">
-                    <h3>Post Information</h3>
-                    <ul>
-                        <li><strong>Harga Tiket</strong> : <?= $posting['ticket_price'] ?></li>
-                        <li><strong>Alamat</strong> : <?= $posting['address'] ?></li>
-                        <li><strong>Maps</strong> :<a href="<?= $posting['maps'] ?>" target="_blank">View Maps</a></li>
-                    </ul>
+                                echo base_url('assets/img/posting/post/default1.jpg');
+                                } ?>" class="img-fluid" alt="" style="width:100%; height: 500px !important;">
                 </div>
             </div>
-
-            <div class="portfolio-description">
+            <div class="col-lg-6">
+                <div class="portfolio-info">
+                <h3>Post Information</h3>
+                <ul>
+                    <li><strong>Harga Tiket</strong> : <?= $posting['ticket_price'] ?></li>
+                    <li><strong>Alamat</strong> : <?= $posting['address'] ?></li>
+                    <li><strong>Maps</strong> : <a href="<?= $posting['maps'] ?>" target="_blank">View Maps</a></li>
+                </ul>
+                </div>
+                <div class="portfolio-description">
                 <h3>Deskripsi</h3>
                 <p><?= $posting['description'] ?>.</p>
+                </div>
+            </div>
             </div>
         </div>
-    </section><!-- End Portfolio Details Section -->
+        </section>
+<!-- End Portfolio Details Section -->
 
 </main><!-- End #main -->
