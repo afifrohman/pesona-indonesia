@@ -18,7 +18,7 @@ class Posting extends CI_Controller
         $this->load->model('Post_model', 'posting');
 
         // Pagination
-        $config['base_url'] = 'http://localhost/wisata/posting/index';
+        $config['base_url'] = 'http://localhost:8080/pesonaindonesia/posting/index';
         $config['total_rows'] = $this->posting->countAllPosting();
         $config['per_page'] = 5;
 
@@ -161,7 +161,7 @@ class Posting extends CI_Controller
             $upload_image1 = $_FILES['image1']['name'];
 
             if ($upload_image1) {
-                $config['allowed_types'] = 'gif|jpg|png';
+                $config['allowed_types'] = 'gif|jpg|png|jpeg';
                 $config['max_size']      = '2048';
                 $config['overwrite']     = true;
                 $config['upload_path'] = './assets/img/posting/post/';
@@ -184,7 +184,7 @@ class Posting extends CI_Controller
             $upload_image2 = $_FILES['image2']['name'];
 
             if ($upload_image2) {
-                $config['allowed_types'] = 'gif|jpg|png';
+                $config['allowed_types'] = 'gif|jpg|png|jpeg';
                 $config['max_size']      = '2048';
                 $config['overwrite']     = true;
                 $config['upload_path'] = './assets/img/posting/post/';
@@ -207,7 +207,7 @@ class Posting extends CI_Controller
             $upload_image3 = $_FILES['image3']['name'];
 
             if ($upload_image3) {
-                $config['allowed_types'] = 'gif|jpg|png';
+                $config['allowed_types'] = 'gif|jpg|png|jpeg';
                 $config['max_size']      = '2048';
                 $config['overwrite']     = true;
                 $config['upload_path'] = './assets/img/posting/post/';
@@ -288,7 +288,7 @@ class Posting extends CI_Controller
             $upload_image = $_FILES['image']['name'];
 
             if ($upload_image) {
-                $config['allowed_types'] = 'gif|jpg|png';
+                $config['allowed_types'] = 'gif|jpg|png|jpeg';
                 $config['max_size']      = '2048';
                 $config['overwrite']     = true;
                 $config['upload_path'] = './assets/img/posting/about/';
@@ -364,7 +364,7 @@ class Posting extends CI_Controller
             $upload_image1 = $_FILES['image1']['name'];
 
             if ($upload_image1) {
-                $config['allowed_types'] = 'gif|jpg|png';
+                $config['allowed_types'] = 'gif|jpg|png|jpeg';
                 $config['max_size']      = '2048';
                 $config['overwrite']     = true;
                 $config['upload_path'] = './assets/img/posting/jumbotron/';
@@ -387,7 +387,7 @@ class Posting extends CI_Controller
             $upload_image2 = $_FILES['image2']['name'];
 
             if ($upload_image2) {
-                $config['allowed_types'] = 'gif|jpg|png';
+                $config['allowed_types'] = 'gif|jpg|png|jpeg';
                 $config['max_size']      = '2048';
                 $config['overwrite']     = true;
                 $config['upload_path'] = './assets/img/posting/jumbotron/';
@@ -410,7 +410,7 @@ class Posting extends CI_Controller
             $upload_image3 = $_FILES['image3']['name'];
 
             if ($upload_image3) {
-                $config['allowed_types'] = 'gif|jpg|png';
+                $config['allowed_types'] = 'gif|jpg|png|jpeg';
                 $config['max_size']      = '2048';
                 $config['overwrite']     = true;
                 $config['upload_path'] = './assets/img/posting/jumbotron/';

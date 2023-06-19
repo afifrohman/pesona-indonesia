@@ -3,7 +3,6 @@
     <div class="card-header">
         <h3><b><?= $title; ?></b></h3>
     </div>
-    <!-- JUMBOTRON -->
     <div class="card-body">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -63,8 +62,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- BUTTON -->
         <a href="<?= base_url() ?>posting/editjumbotron/<?= $jumbotron['id'] ?>"
             class="mt-3 btn btn-warning btn-icon-split">
             <span class="icon text-white-50">

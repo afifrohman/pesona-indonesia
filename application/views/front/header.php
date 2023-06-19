@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Wisata - Index</title>
+    <title>Pesona Indonesia</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
 
@@ -50,8 +50,8 @@
             <nav class="nav-menu float-right d-none d-lg-block">
                 <ul>
                     <li><a href="<?= base_url(); ?>">Home</a></li>
-                    <li><a href="#portfolio">Wisata</a></li>
                     <li><a href="#about">About Us</a></li>
+                    <li><a href="#portfolio">Wisata</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact Us</a></li>
                 </ul>

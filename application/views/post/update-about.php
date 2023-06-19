@@ -1,6 +1,5 @@
 <!-- Begin Page Content -->
 <div class="container-fluid">
-    <!-- Page Heading -->
     <h1 class="h3 mb-4 text-gray-800"><?= $title; ?></h1>
     <div class="row">
         <div class="col-lg-12">
@@ -12,17 +11,17 @@
                         <div class="row">
                             <div class="col-sm-3">
                                 <?php if ($abouts['image'] !== '') { ?>
-                                <img src="<?= base_url('assets/img/profile/') . $abouts['image'] ?>"
+                                <img src="<?= base_url('assets/img/posting/about') . $abouts['image'] ?>"
                                     class="img-thumbnail" alt="">
                                 <?php } else { ?>
-                                <img src="<?= base_url('assets/img/profile/default.jpg') ?>" class="img-thumbnail"
+                                <img src="<?= base_url('assets/img/posting/about/default.jpg') ?>" class="img-thumbnail"
                                     alt="">
                                 <?php } ?>
                             </div>
                             <div class="col-sm-9">
                                 <div class="custom-file">
                                     <input type="file" class="custom-file-input" id="image" name="image">
-                                    <label class="custom-file-label" for="image">Choose file</label>
+                                    <label class="custom-file-label" for="image">Pilih file</label>
                                 </div>
                             </div>
                         </div>
